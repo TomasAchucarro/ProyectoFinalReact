@@ -1,0 +1,31 @@
+.component {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.cardButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconContainer {
+  border: 1px solid #252525;
+  display: flex;
+  padding: 0.3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+.iconContainer:hover {
+  border: 1px solid #6e6d6d;
+  color: black;
+  background-color: #6e6d6d;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

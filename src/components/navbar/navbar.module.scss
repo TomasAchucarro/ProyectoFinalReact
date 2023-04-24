@@ -1,0 +1,36 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #111111;
+  border: 0.1px solid gray;
+  box-shadow: 2px 2px 1px 0px black;
+  border-radius: 5px;
+}
+
+.containerTitle {
+  width: 50%;
+}
+.title {
+  font-size: 1.5rem;
+  margin-left: 30px;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    transition: 0.3s ease-in;
+    color: gray;
+    // font-size: 25px;
+  }
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  margin-right: 1rem;
+}
